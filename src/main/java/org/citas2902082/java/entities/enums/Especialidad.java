@@ -7,6 +7,5 @@ public enum Especialidad {
     MEDICINA_GENERAL,
     PSICOLOGIA,
     DERMATOLOGIA,
-    LABORATORIO
 
 }
