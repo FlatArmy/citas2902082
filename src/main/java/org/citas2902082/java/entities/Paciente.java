@@ -41,30 +41,19 @@ public class Paciente {
             String email) {
 
         this.nombres = nombres;
-
         this.apellidos = apellidos;
-
         this.tipoIdentificacion = tipoIdentificacion;
-
         this.numeroIdentificacion = numeroIdentificacion;
-
         this.tipoSangre = tipoSangre;
-
         this.factorRH = factorRH;
-
         this.altura = altura;
-
         this.peso = peso;
-
         this.fechaNacimiento = fechaNacimiento;
-
         this.email = email;
 
-        
     }
 
     public Paciente() {
     }
-    
 
 }

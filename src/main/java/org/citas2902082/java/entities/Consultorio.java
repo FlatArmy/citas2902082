@@ -9,12 +9,7 @@ public class Consultorio {
             Integer numero) {
 
         this.direccion = direccion;
-
         this.numero = numero;
-
-
-
-        
     }
 
     public Consultorio() {
