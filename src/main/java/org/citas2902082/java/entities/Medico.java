@@ -26,9 +26,35 @@ public class Medico extends Usuario {
         this.especialidad = especialidad;
     }
 
+    
+
+    public Long getRegistroMedico() {
+        return registroMedico;
+    }
+
+
+
+    public void setRegistroMedico(Long registroMedico) {
+        this.registroMedico = registroMedico;
+    }
+
+
+
+    public Especialidad getEspecialidad() {
+        return especialidad;
+    }
+
+
+
+    public void setEspecialidad(Especialidad especialidad) {
+        this.especialidad = especialidad;
+    }
+
+
+
     @Override
     public String toString() {
-        return super.toString() + "Medico [registroMedico=" + registroMedico + ", especialidad=" + especialidad + "]";
+        return super.toString() + "Medico registroMedico=" + registroMedico + ", especialidad=" + especialidad ;
     }
 
 }

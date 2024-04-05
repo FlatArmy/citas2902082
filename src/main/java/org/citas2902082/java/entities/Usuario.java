@@ -8,7 +8,7 @@ public abstract class Usuario {
     protected String nombre;
     protected String apellido;
     protected TipoIdentificacion tipoIdentificacion;
-        protected Long numeroIdentificacion;
+    protected Long numeroIdentificacion;
         public Usuario(Integer id, String nombre, String apellido, TipoIdentificacion tipoIdentificacion,
                 Long numeroIdentificacion) {
             this.id = id;
